@@ -1,5 +1,5 @@
 /*
- *settings theme  
+ *settings theme
  */
 /*
 author: Developed by Stas Melnikov. http://stas-melnikov.ru
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #a74752;
+  color: #234BE3;
 }
 
 p {
@@ -142,7 +142,7 @@ p:last-of-type {
 
 .text-field:focus {
   border-color: transparent;
-  outline: 2px solid #a74752;
+  outline: 2px solid #234BE3;
 }
 
 .textarea {
@@ -330,7 +330,7 @@ p:last-of-type {
 
 .subtitle {
   margin-bottom: 1.5rem;
-  color: #a74752;
+  color: #234BE3;
 }
 
 .title_white {
@@ -557,7 +557,7 @@ p:last-of-type {
 }
 
 .icon_rounded-crimson {
-  background-color: #a74752;
+  background-color: #234BE3;
 }
 
 .icon_rounded-crimson:before {
@@ -571,7 +571,7 @@ p:last-of-type {
   z-index: 9998;
   display: none;
   padding: 1.5rem 1rem;
-  background-color: #a74752;
+  background-color: #234BE3;
 }
 
 .icon-menu {
@@ -682,7 +682,7 @@ p:last-of-type {
 }
 
 .nav__link_active {
-  color: #a74752;
+  color: #234BE3;
 }
 
 .nav-panel__icon {
@@ -904,7 +904,7 @@ p:last-of-type {
 
 .logo__label {
   font-size: 1.4rem;
-  color: #a74752;
+  color: #234BE3;
   display: block;
 }
 
@@ -1113,7 +1113,7 @@ p:last-of-type {
 }
 
 .skills-display {
-  background: url("http://placehold.it/1920x1080") no-repeat center 50% #ddd;
+  background: url("../img/adrianCover.jpg") no-repeat center 50% #ddd;
   background-size: cover;
 }
 
@@ -1420,8 +1420,8 @@ p:last-of-type {
   display: inline-block;
   padding: 1rem 2rem;
   color: #fff;
-  border: 1px solid #a74752;
-  background-color: #a74752;
+  border: 1px solid #234BE3;
+  background-color: #234BE3;
   -webkit-transition-property: border-color, background-color;
   transition-property: border-color, background-color;
   -webkit-transition-duration: 0.4s;
@@ -1433,9 +1433,9 @@ p:last-of-type {
 }
 
 .list-works__show-project:hover {
-  border-color: #a74752;
+  border-color: #234BE3;
   background-color: #fff;
-  color: #a74752;
+  color: #234BE3;
 }
 
 .list-works__overlay {
@@ -1652,7 +1652,7 @@ p:last-of-type {
 }
 
 .timeline__content {
-  border-left: 0.5rem solid #a74752;
+  border-left: 0.5rem solid #234BE3;
   background-color: #eee;
   position: relative;
   padding: 2rem 2.5rem;
@@ -1665,7 +1665,7 @@ p:last-of-type {
   display: block;
   width: 0;
   height: 0;
-  border: 0.5rem solid #a74752;
+  border: 0.5rem solid #234BE3;
   border-top-color: transparent;
   border-right-color: transparent;
   position: absolute;
@@ -1686,7 +1686,7 @@ p:last-of-type {
 .timeline__place-work {
   width: 100%;
   font-size: 1.4rem;
-  color: #a74752;
+  color: #234BE3;
 }
 
 .timeline__title {
@@ -1793,7 +1793,7 @@ p:last-of-type {
 }
 
 .post__layout {
-  border-top: 5px solid #a74752;
+  border-top: 5px solid #234BE3;
   padding: 1.5rem 2.5rem;
 }
 
@@ -1827,7 +1827,7 @@ p:last-of-type {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #a74752;
+  background-color: #234BE3;
   padding: .5rem 1rem;
   font-size: 1.6rem;
   color: #fff;
@@ -1966,7 +1966,7 @@ p:last-of-type {
   top: 1rem;
   right: 0;
   z-index: 2;
-  background-color: #a74752;
+  background-color: #234BE3;
   padding: .5rem 1rem;
   font-size: 1.6rem;
   color: #fff;
@@ -2012,7 +2012,7 @@ p:last-of-type {
 }
 
 .popup__show-more {
-  color: #a74752;
+  color: #234BE3;
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-top: 1rem;
@@ -5683,7 +5683,7 @@ _::full-page-media, _:future,
 /*
  *Transitions
  */
-/* 
+/*
  *fade
  */
 .vegas-transition-fade, .vegas-transition-fade2, .vegas-transition-fade2-out {
@@ -5694,7 +5694,7 @@ _::full-page-media, _:future,
   opacity: 1;
 }
 
-/* 
+/*
  *blur
  */
 .vegas-transition-blur, .vegas-transition-blur2 {
@@ -5713,7 +5713,7 @@ _::full-page-media, _:future,
   opacity: 0;
 }
 
-/* 
+/*
  *flash
  */
 .vegas-transition-flash, .vegas-transition-flash2 {
@@ -5734,7 +5734,7 @@ _::full-page-media, _:future,
   filter: brightness(25);
 }
 
-/* 
+/*
  *negative
  */
 .vegas-transition-negative, .vegas-transition-negative2 {
@@ -5755,7 +5755,7 @@ _::full-page-media, _:future,
   filter: invert(100%);
 }
 
-/* 
+/*
  *burn
  */
 .vegas-transition-burn, .vegas-transition-burn2 {
@@ -5794,7 +5794,7 @@ _::full-page-media, _:future,
   transform: translateZ(0px) translate(-100%, 0);
 }
 
-/* 
+/*
  *slideRight
  */
 .vegas-transition-slideRight, .vegas-transition-slideRight2 {
@@ -5830,7 +5830,7 @@ _::full-page-media, _:future,
   transform: translateZ(0px) translate(0, -100%);
 }
 
-/* 
+/*
  *slideDown
  */
 .vegas-transition-slideDown, .vegas-transition-slideDown2 {
@@ -5848,7 +5848,7 @@ _::full-page-media, _:future,
   transform: translateZ(0px) translate(0, 100%);
 }
 
-/* 
+/*
  *zoomIn
  */
 .vegas-transition-zoomIn, .vegas-transition-zoomIn2 {
@@ -5890,7 +5890,7 @@ _::full-page-media, _:future,
   opacity: 0;
 }
 
-/* 
+/*
  *swirlLeft
  */
 .vegas-transition-swirlLeft, .vegas-transition-swirlLeft2 {
@@ -5911,7 +5911,7 @@ _::full-page-media, _:future,
   opacity: 0;
 }
 
-/* 
+/*
  *swirlRight
  */
 .vegas-transition-swirlRight, .vegas-transition-swirlRight2 {
@@ -6171,7 +6171,7 @@ _::full-page-media, _:future,
   }
 }
 
-.ytplayer-loaded .ytplayer-container {
+/* .ytplayer-loaded .ytplayer-container {
   display: block;
 }
 
@@ -6198,4 +6198,24 @@ _::full-page-media, _:future,
 
 .ytplayer-player {
   position: absolute;
+} */
+
+.icon-javascript:before {
+  background-image: url("../icons/javascript.svg");
+}
+
+.icon-python:before {
+  background-image: url("../icons/python.svg");
+}
+
+h1.welcome__header span.welcome__name {
+font-family: 'Great Vibes', cursive;
+}
+
+header.header div.main-container {
+    background-image: url("../img/codingBackground.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, .7) !important;
+    background-position: center;
 }
