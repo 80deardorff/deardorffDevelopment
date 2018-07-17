@@ -1150,7 +1150,6 @@ p:last-of-type {
   transform: translateZ(0px) translate(0, -50%);
   color: #000;
   font-weight: 700;
-  margin-left: 2rem;
 }
 
 @media screen and (max-width: 860px) {
@@ -6217,5 +6216,35 @@ header.header div.main-container {
     background-repeat: no-repeat;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, .7) !important;
+    background-size: cover;
     background-position: center;
+}
+
+#required {
+    color: lightgrey;
+    font-size: 1.2rem;
+}
+
+.newSkillColumn{
+    display: flex;
+    height: 100%;
+    margin-left: 45%;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-position: inside;
+}
+
+.newSkill {
+    font-size: 1.9rem;
+}
+
+@media screen and (max-width: 860px) {
+    .newSkillColumn{
+        display: flex;
+        height: 100%;
+        margin-left: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-position: inside;
+    }
 }
