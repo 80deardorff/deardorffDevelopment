@@ -23,7 +23,7 @@
 	</div>
 </header>
 
-<!-- ABOUT SECTION -->
+<!-- ABOUT ME SECTION -->
 
 <section id="about" class="wrapper display_js">
     <div class="main-container main-container_padding">
@@ -117,22 +117,25 @@
 		<div class="subtitle">My latest works</div>
 	</header>
 	<div class="content list-works">
+
+		<!-- COLUMN #1 -->
 		<div class="list-works__column">
+			<!-- 960px x 960px ITEM -->
 			<a href="#" class="list-works__item list-works__item_big layer open-popup_js" data-show-effect="fadeIn" data-show-delay="100" data-id="he">
 				<div class="list-works__wrap-img">
-					<img src="img/eCommerce1.png" class="responsive-img" alt="E-Commerce Site" />
+					<img src="img/eCommerce1.png" class="responsive-img" alt="E-Commerce Site"/>
 				</div>
 				<div class="list-works__overlay">
 					<span class="list-works__name-project list-works__name-project_fade">E-Commerce<br>Auto Parts Site</span>
 					<span class="list-works__link-project">Click for details</span>
 				</div>
 			</a>
-			<!-- <a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="800" data-id="aa">
+			<a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="800" data-id="aa">
 				<div class="list-works__wrap-img">
-					<img src="http://placehold.it/480x480" class="responsive-img" alt="Work" />
+					<img src="img/vehicleInfo1.png" class="responsive-img" alt="Vehicle sales site." />
 				</div>
 				<div class="list-works__overlay">
-					<span class="list-works__name-project list-works__name-project_fade">Title work</span>
+					<span class="list-works__name-project list-works__name-project_fade">Vehicle Sales Site</span>
 					<span class="list-works__link-project">Click for details</span>
 				</div>
 			</a>
@@ -145,7 +148,7 @@
 					<span class="list-works__link-project">Click for details</span>
 				</div>
 			</a>
-			<a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="1000" data-id="mrt">
+			<!-- <a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="1000" data-id="mrt">
 				<div class="list-works__wrap-img">
 					<img src="http://placehold.it/480x480" class="responsive-img" alt="Work" />
 				</div>
@@ -164,6 +167,8 @@
 				</div>
 			</a> -->
 		</div>
+
+		<!-- COLUMN #2 -->
 		<div class="list-works__column">
 			<a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="300" data-id="wgm">
 				<div class="list-works__wrap-img">
@@ -183,33 +188,35 @@
 					<span class="list-works__link-project">Click for details</span>
 				</div>
 			</a>
-			<a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="500" data-id="mdb">
+			<!-- <a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="500" data-id="mdb">
 				<div class="list-works__wrap-img">
-					<img src="img/vehicleInfo1.png" class="responsive-img" alt="Vehicle sales site." />
+					<img src="http://placehold.it/480x480" class="responsive-img" alt="Work" />
 				</div>
 				<div class="list-works__overlay">
-					<span class="list-works__name-project list-works__name-project_fade">Vehicle Sales Site</span>
+					<span class="list-works__name-project list-works__name-project_fade">Title work</span>
 					<span class="list-works__link-project">Click for details</span>
 				</div>
 			</a>
 			<a href="#" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
 				<div class="list-works__wrap-img">
-					<img src="img/zodiacApp1.png" class="responsive-img" alt="Zodiac App" />
-				</div>
-				<div class="list-works__overlay">
-					<span class="list-works__name-project list-works__name-project_fade">Zodiac App work</span>
-					<span class="list-works__link-project">Click for details</span>
-				</div>
-			</a>
-			<!-- <a href="#" class="list-works__item list-works__item_big layer open-popup_js" data-show-effect="fadeIn" data-show-delay="700" data-id="lrmw">
-				<div class="list-works__wrap-img">
-					<img src="http://placehold.it/960x960" class="responsive-img" alt="Work" />
+					<img src="http://placehold.it/480x480" class="responsive-img" alt="Work" />
 				</div>
 				<div class="list-works__overlay">
 					<span class="list-works__name-project list-works__name-project_fade">Title work</span>
 					<span class="list-works__link-project">Click for details</span>
 				</div>
 			</a> -->
+
+			<!-- 960px x 960px ITEM -->
+			<a href="#" class="list-works__item list-works__item_big layer open-popup_js" data-show-effect="fadeIn" data-show-delay="700" data-id="lrmw">
+				<div class="list-works__wrap-img">
+					<img src="img/zodiacApp1.png" class="responsive-img" alt="Zodiac App" />
+				</div>
+				<div class="list-works__overlay">
+					<span class="list-works__name-project list-works__name-project_fade">Zodiac App</span>
+					<span class="list-works__link-project">Click for details</span>
+				</div>
+			</a>
 		</div>
 	</div>
 </section>
@@ -398,21 +405,21 @@
 			<h2 class="title title_bottom-decor">Contact</h2>
 			<div class="subtitle">Get in touch</div>
 		</header>
-		<form class="contact-form" id="contactForm" name="sentMessage" novalidate="novalidate">
+		<form class="contact-form" method="post" name="myemailform" action="form-to-email.php">
 			<div class="contact-form__item layer"  data-show-effect="fadeInLeft" data-show-delay="400">
 				<i class="icon icon-user contact-form__icon"></i>
-				<input id="name" type="text" class="text-field" placeholder="Your name *" required="required" data-validation-required-message="Please enter your name."/>
+				<input class="text-field" type="text" name="name" placeholder="Your name *" required/>
 			</div>
 			<div class="contact-form__item layer"  data-show-effect="fadeInRight" data-show-delay="500">
 				<i class="icon icon-mail contact-form__icon"></i>
-				<input id="email" class="text-field" type="email" placeholder="Your email *" required="required" data-validation-required-message="Please enter your email address."/>
+				<input class="text-field" type="email" name="email" placeholder="Your email *" required/>
 			</div>
 			<div class="contact-form__item layer"  data-show-effect="fadeInLeft" data-show-delay="600">
 				<i class="icon icon-message contact-form__icon"></i>
-				<textarea id="message" class="text-field textarea" placeholder="Your message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+				<textarea class="text-field textarea" placeholder="Your message *" name="message" required></textarea>
 			</div>
 			<div id="required" class="layer" data-show-effect="fadeInRight" data-show-delay="700">* Required field</div>
-			<button id="sendMessageButton" class="button contact-form__button layer"  data-show-effect="fadeInRight" data-show-delay="700" type="submit"><span class="button__label">Send Message</span></button>
+			<button class="button contact-form__button layer"  data-show-effect="fadeInRight" data-show-delay="700" type="submit"><span class="button__label">Send Message</span></button>
 		</form>
 	</div>
 </section>
@@ -568,13 +575,12 @@
 		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="1500" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
-					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="1300" data-time="500" data-show-effect="flipInX" data-hide-effect="fadeOutLeft">Vehicle Sales Site</span></h3>
-					<img src="img/vehicleInfo2.png" class="responsive-img" alt="Vehicle sales site." />
+					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="1300" data-time="500" data-show-effect="flipInX" data-hide-effect="fadeOutLeft">Title work</span></h3>
+					<img src="http://placehold.it/1200x500" class="responsive-img" alt="Title popup" />
 				</header>
 				<div class="popup__content">
 					<div class="popup__description lrmw_layer" data-show-delay="200" data-hide-delay="1000" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						<p>This is a very simply developed sales page for a automotive sales business.</p>
-						<p>JavaScript is used to swap out images and the info of the vehicle that is searched. The site only returns a limited amount of data that I placed inside JavaScript; however, it shows the possibilty to connecting to a larger data source creating a great tool for customers.</p>
+						<p>Test 2</p>
 					</div>
 					<div class="popup__sidebar lrmw_layer" data-show-delay="400" data-hide-delay="1000" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">
 						<div class="popup__used-tech project-tech project-tech_fullwidth">
@@ -598,13 +604,12 @@
 		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
-					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="lightSpeedIn" data-hide-effect="lightSpeedOut">Zodiac App</span></h3>
-					<img src="img/zodiacApp2.png" class="responsive-img" alt="Zodiac app." />
+					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="lightSpeedIn" data-hide-effect="lightSpeedOut">Title work</span></h3>
+					<img src="http://placehold.it/1200x500" class="responsive-img" alt="Title popup" />
 				</header>
 				<div class="popup__content">
 					<div class="popup__description lrmw_layer" data-show-delay="200" data-hide-delay="600" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						<p>This project was enjoyable to practice writing javascript for displaying the user's zodiac, image, and horoscope based on the user's input of their birthdate from the drop downs.</p>
-						<p>The site is very simple but yet elegant and easy to understand for a great user experience. The color scheme and background photo also make this site look nice too.</p>
+						<p>Test 1</p>
 					</div>
 					<div class="popup__sidebar lrmw_layer" data-show-delay="400" data-hide-delay="600" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">
 						<div class="popup__used-tech project-tech project-tech_fullwidth">
@@ -628,25 +633,25 @@
 		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
-					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="rotateInDownLeft" data-hide-effect="rotateOutUpLeft">Title work</span></h3>
-					<img src="http://placehold.it/1200x500" class="responsive-img" alt="Title popup" />
+					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="rotateInDownLeft" data-hide-effect="rotateOutUpLeft">Vehicle Sales Site</span></h3>
+					<img src="img/vehicleInfo2.png" class="responsive-img" alt="Vehicle sales site." />
 				</header>
 				<div class="popup__content">
 					<div class="popup__description lrmw_layer" data-show-delay="200" data-hide-delay="600" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+						<p>This is a very simply developed sales page for a automotive sales business.</p>
+						<p>JavaScript is used to swap out images and the info of the vehicle that is searched. The site only returns a limited amount of data that I placed inside JavaScript; however, it shows the possibilty to connecting to a larger data source creating a great tool for customers.</p>
 					</div>
 					<div class="popup__sidebar lrmw_layer" data-show-delay="400" data-hide-delay="600" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">
 						<div class="popup__used-tech project-tech project-tech_fullwidth">
 							<h4 class="title title_small">Technologies:</h4>
-							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-css3 lrmw_layer" data-show-delay="1600" data-hide-delay="140" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
-							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-desktop lrmw_layer" data-show-delay="1800" data-hide-delay="180" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
-							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-codeopen lrmw_layer" data-show-delay="2000" data-hide-delay="220" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
-							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-coffee lrmw_layer" data-show-delay="2200" data-hide-delay="260" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
+							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-html5 lrmw_layer" data-show-delay="1600" data-hide-delay="140" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
+							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-css3 lrmw_layer" data-show-delay="1800" data-hide-delay="180" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
+							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-javascript lrmw_layer" data-show-delay="2000" data-hide-delay="220" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span>
+							<!-- <span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-coffee lrmw_layer" data-show-delay="2200" data-hide-delay="260" data-time="600" data-show-effect="elastic" data-hide-effect="rotateOutUpLeft"></span> -->
 						</div>
 						<div class="popup__demo-box">
 							<!-- <h4 class="title title_small">Demo:</h4> -->
-							<a href="#" class="popup__show-more" target="_blank">Click here to demo</a>
+							<a href="https://80deardorff.github.io/vehicleInfo/" class="popup__show-more" target="_blank">Click here to demo</a>
 						</div>
 					</div>
 				</div>
@@ -663,8 +668,7 @@
 				</header>
 				<div class="popup__content">
 					<div class="popup__description lrmw_layer" data-show-delay="200" data-hide-delay="600" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+						<p>Test 3</p>
 					</div>
 					<div class="popup__sidebar lrmw_layer" data-show-delay="400" data-hide-delay="600" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">
 						<div class="popup__used-tech project-tech project-tech_fullwidth">
@@ -693,8 +697,7 @@
 				</header>
 				<div class="popup__content">
 					<div class="popup__description lrmw_layer" data-show-delay="200" data-hide-delay="1200" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+						<p>Test 4</p>
 					</div>
 					<div class="popup__sidebar lrmw_layer" data-show-delay="400" data-hide-delay="1200" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">
 						<div class="popup__used-tech project-tech project-tech_fullwidth">
@@ -723,8 +726,7 @@
 				</header>
 				<div class="popup__content">
 					<div class="popup__description lrmw_layer" data-show-delay="200" data-hide-delay="600" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+						<p>Test 5</p>
 					</div>
 					<div class="popup__sidebar lrmw_layer" data-show-delay="400" data-hide-delay="600" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">
 						<div class="popup__used-tech project-tech project-tech_fullwidth">
@@ -762,8 +764,8 @@
 							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-html5 lrmw_layer" data-show-delay="1400" data-hide-delay="100" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span>
 							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-css3 lrmw_layer" data-show-delay="1600" data-hide-delay="140" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span>
 							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-javascript lrmw_layer" data-show-delay="1800" data-hide-delay="180" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span>
-							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-codeopen lrmw_layer" data-show-delay="2000" data-hide-delay="220" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span>
-							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-coffee lrmw_layer" data-show-delay="2200" data-hide-delay="260" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span>
+							<!-- <span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-codeopen lrmw_layer" data-show-delay="2000" data-hide-delay="220" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span>
+							<span class="icon icon_middle icon_rounded icon_rounded-black project-tech__icon icon-coffee lrmw_layer" data-show-delay="2200" data-hide-delay="260" data-time="500" data-show-effect="flipInY" data-hide-effect="flipOutY"></span> -->
 						</div>
 						<div class="popup__demo-box">
 							<!-- <h4 class="title title_small">Demo:</h4> -->

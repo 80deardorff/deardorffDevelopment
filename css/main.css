@@ -6199,6 +6199,8 @@ _::full-page-media, _:future,
   position: absolute;
 } */
 
+/* ADDED CUSTOM CSS */
+
 .icon-javascript:before {
   background-image: url("../icons/javascript.svg");
 }
@@ -6247,4 +6249,8 @@ header.header div.main-container {
         justify-content: space-between;
         list-style-position: inside;
     }
+}
+
+#about div.main-container_padding {
+    padding-bottom: 0;
 }
