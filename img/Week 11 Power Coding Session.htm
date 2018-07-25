@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://codifyacademy.com/wk11/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Week 11 Power Coding Session</title>
+
+	<link rel="stylesheet" href="./Week 11 Power Coding Session_files/font-awesome.min.css">
+	<link href="./Week 11 Power Coding Session_files/css" rel="stylesheet">
+	<link rel="stylesheet" href="./Week 11 Power Coding Session_files/main.css">
+</head>
+<body>
+	<header>
+		<h1>Week 11</h1>
+	</header>
+	<div class="section-wrapper">
+		<section class="questions">
+			<h1 class="section-header">In Class Quiz</h1>
+			<ol>
+				<li>Where do we write our own custom jQuery code?</li>
+				<li>How do we link jQuery to our HTML?</li>
+				<li>What syntax indicates a jQuery expression?</li>
+				<li>How would you explain what $(document).ready() means using plain English?</li>
+			</ol>
+			<i class="icon fa fa-question-circle"></i>
+		</section>
+		<section class="questions">
+			<h1 class="section-header">Group Discussion Questions</h1>
+			<ol>
+				<li>What is jQuery? Why is it useful?</li>
+				<li>What syntax indicates a jQuery expression?</li>
+				<li>How should we interpret the following, in natural language? $(document).ready(function() { /*do stuff*/ });</li>
+				<li>What selectors are recognized by jQuery?</li>
+				<li>What is the jQuery equivalent to document.getElementById("hero-img")?</li>
+				<li>What is the jQuery equivalent to document.getElementByClassName("box")?</li>
+				<li>What data type will the following variable most likely contain? var myData = $("#call-to-action");</li>
+				<li>What data type will the following variable most likely contain? var myData = $("div");</li>
+				<li>What jQuery method can we use to invoke a function on a click event?</li>
+				<li>What jQuery method can we use to invoke a function on a hover event?</li>
+				<li>What jQuery method can we use to invoke a function on a key-up event?</li>
+				<li>What does the toggle method do?</li>
+				<li>What does the toggleClass method do?</li>
+				<li>What does the append method do?</li>
+				<li>What does the css method do?</li>
+			</ol>
+			<i class="icon fa fa-question-circle"></i>
+		</section>
+	</div>
+	<div class="section-wrapper">
+		<section class="exercises">
+			<h1 class="section-header">Exercises</h1>
+			<h4 class="note">Important: Make sure to add comments to your code to help your future self.</h4>
+			<ol>
+				<li>Create a copy of your template folder and rename it to week11exercise.</li>
+				<li>Drag this new folder into your 'week11' folder inside your 'codify' folder.</li>
+				<li>When working through these exercises, there are bits and pieces of the instructions that are deliberately left out. You should start thinking about what you THINK you will need in order to accomplish the request.</li>
+				<li>In HTML: add an image and two buttons. (reference #5 for the content for your buttons)</li>
+				<li>In jQuery: make the image element appear and disappear when you click the corresponding button.</li>
+				<li>Create a third button which does the work of BOTH the previous buttons (i.e. when the image is visible and you click the button, the image disppears; when the image is not visible and you click the button, the image reappears). Open your inspector and notice HOW the image is being hidden/unhidden.</li>
+				<li>In CSS: give your image a transition property with a value of "0.3s ease".</li>
+				<li>In CSS: create a class selector for a class called "fade" with a property of "opacity: 0".</li>
+				<li>Create a fourth button which toggles this new "fade" class on and off for the image element when clicked.</li>
+				<li>In jQuery: make the image change to a different image on hover (think about what HTML attribute commands the content of an image element).</li>
+				<li>In HTML: create an unordered-list with two list items (make sure these li's have some text content). Then create a button below this unordered list.</li>
+				<li>In jQuery: when this button is clicked, add a new list-item with some text content to this unordered list.</li>
+				<li>Finally, in HTML: create one last button.</li>
+				<li>In jQuery: when this button is clicked, cause an element to render with a red background, which covers your entire window and all of the elements on your page. Make sure that if you try to scroll, you can still see nothing but the red background.</li>
+			</ol>
+			<h4 class="note">Once you have completed these exercises, try these for an added challenge.</h4>
+			<ol>
+				<li>In HTML: create an h1 below your image and buttons.</li>
+				<li>In jQuery: make the text content of this h1 change to reflect whether or not the "fade" class is active on the image (i.e. make the text change between "fade on" and "fade off" or something similar).</li>
+				<li>In #10 above, you made the image change to a new image on hover. Now can you make it change BACK when you exit the hover (when you move your mouse off of the image element)?</li>
+				<li>In jQuery: cause each list-item to change color, font-size, and font-family on hover (HINT: you might need to do a double-take on this one, if ALL of your list-items are changing when you hover on any ONE of them, you'll need to think carefully about how to make sure only <em>this</em> one which you're hovering over will change). Don't forget to make them change BACK when you exit the hover.</li>
+			</ol>
+
+			<h4 class="note">Once you have completed these exercises add them to Github.</h4>
+
+			<a href="http://codifyacademy.com/wk11/week11exercises.zip" class="link">Download Completed Week 11 Exercises</a>
+			<i class="icon fa fa-code"></i>
+		</section>
+	</div>
+	<div class="section-wrapper">
+		<section class="project">
+			<h1 class="section-header">Project</h1>
+			<p></p>
+			<h4 class="steps">Steps For Making the Animated Full-Page Menu jQuery Project - remember to break it down into manageable steps:</h4>
+			<ol>
+				<li>Paper prototype your site.</li>
+				<li>Code your site in static HTML and CSS, including the menu to be animated. When this is done, your site should look exactly how you'd like when your menu is OPEN.</li>
+				<li>Now add any classes or stylings you need to completely HIDE your menu and its content. In this way, we'll determine the starting state of our menu. For example, if you want your menu to slide down from the top of your window, you may want to force the menu to have a height of 0.</li>
+				<li>Plan how you will use jQuery to change the styling of your menu to reach the OPEN end state. For example, if your menu has a height of 0, plan how to use jQuery to give it a height of 100vh.</li>
+				<li>Write and test your jQuery. See if your menu opens and closes as you expect.</li>
+				<li>Add CSS transition properties or incorporate animate.css classes to make your animated full-page menu even more interesting!</li>
+			</ol>
+			<h4 class="steps">Working Project Example</h4>
+				<a href="http://codifyacademy.com/litmos/wk11/animatedMenu" class="link" target="_blank">Animated Full-Page Menu Example</a>
+			<h4 class="steps">Steps For Making the Movie Rating List App - remember to break it down into manageable steps:</h4>
+			<ol>
+				<li>Paper prototype your site.</li>
+				<li>Code your site in static HTML and CSS with one or two sample movie titles and corresponding ratings. By this point, your site should look like you've already entered the names and ratings of two films.</li>
+				<li>Now set up your function to add a static film name and rating to your site. Use jQuery to invoke your function with an event handler.</li>
+				<li>Swap out the static film name and rating with the user-input film name and rating. Don't forget to use as much jQuery and as little vanilla JS as possible.</li>
+			</ol>
+			<div style="padding-bottom: 100px;">
+				<h4 class="steps">Working Project Example</h4>
+				<a href="http://codifyacademy.com/litmos/wk11/movieRatings" class="link" target="_blank">Movie Ratings</a>
+			</div>
+
+			<i class="icon fa fa-briefcase"></i>
+		</section>
+	</div>
+	<!-- <div class="section-wrapper">
+		<section class="jobs">
+			<h1 class="section-header">Jobs Program</h1>
+			<p>This week, find a job posting for a front-end engineer on a service like indeed.com or LinkedIn's job section. Write a cover letter in response to said job posting and submit this cover letter to your mentor for review. The cover letter will be the first touch-point between yourself and any potential employers or recruiters, so put some serious time and consideration into the writing process. Be sure to inject some personality into it!<br><br>Your cover letter should NEVER be more than one page, and do not try to include all of the content of your resume in the letter, just the highlights.<br><br>Additionally, reach out to your mentor and your coach to commit to an appointment for 1-on-1 interview prep.</p>
+		</section>
+	</div> -->
+
+
+
+</body></html>

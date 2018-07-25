@@ -9,7 +9,7 @@ $message = $_POST['message'];
 $email_from = 'noreply@deardorffdevelopment.com';
 $email_subject = "Deardorff Development Email";
 $email_body = "You have received a new message from $name.\n".
-                            "Here is the message:\n $message".
+                            "Here is the message:\n\n$message\n\n".
 
 // SENDS THE EMAIL
 // mail(to, subject, message, headers) IS THE FUNCTION
@@ -46,5 +46,9 @@ if(IsInjected($visitor_email))
     echo "Bad email value!";
     exit;
 }
+
+// REDIRECTION TO HOMEPAGE
+echo '<script language="javascript">alert("Thank you for your message. It has been sent successfully.")</script>';
+echo '<script language="javascript">window.location = "http://www.deardorffdevelopment.com"</script>';
 
 ?>
